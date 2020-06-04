@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Georgia;
+  background-color: #D3D5D4;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #BDD9BF;
+  font-weight: bold;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #D3D5D4;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  margin: 10px;
+}
+
+h4 {
+  text-align: center;
+  margin: 30px;
+}
+
+ul {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.content {
+  background-color: #D3D5D4;
+  padding: 10px;
+  width: 100%;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #000000;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  margin: 10px;
+}
