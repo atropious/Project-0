@@ -1,0 +1,42 @@
+.step1,.step2,.step3,.step4,.step5 {
+  font-family:Georgia;
+  font-weight:bold;
+  font-size:20px;
+  text-align:center;
+  padding:10px;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+
+.step1 {
+  background-color:#A6A6A8;
+}
+
+.step2 {
+  background-color:#A6A6A8;
+}
+
+.step3 {
+  background-color:#A6A6A8;
+}
+
+.step4 {
+  background-color:#A6A6A8;
+}
+
+.step5 {
+  background-color:#A6A6A8;
+}
+
+div {
+  font-size:20px;
+}
+
+div p {
+  color:black;
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
